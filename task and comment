@@ -1,0 +1,27 @@
+Scheduling in the narrowband Doppler channel
+
+Task:
+1. Consider a narrowbnad multipath communication channel with no line-of-sight
+
+2. Consider a slotted wireless channel: a base station sends a data to only one mobile device using a frame of length T The frame length equals to N independent channel uses. Consider an optimal code, that operates at Shannon's limit. Thus, the number of bits transmitted within a single frame is
+
+R=TBlog2(1+S/N)
+
+B=1/Δt⇒R=log2(1+S/N)
+2. Consider a base station communicating with multiple mobile devices using time-division multiplexing, when the base-station is able to send a frame to the only mobile device
+3. Let the Doppler frequency being small w.r.t. transmittion time
+1/T≪fD
+
+Note that the channel realizations between a base station and mobile devices are independent
+
+Please provide the data rate as a function of users count
+
+Grade 8 (10 pts possible)
+
+Professor's comment:
+The first comment is to use multiple simulations for any quantity evaluation. 
+As soon as your model uses the random input and calculates some characteristics given this random input, your output is also a random variable. 
+What is the difference between the Jakes model and the AWGN model? 
+In the second case, the channel gain remains constant: the signal attenuation does not depend on time and frequency, and the power amplifier completely compensates for this attenuation. 
+As the attenuation does not change with time, the best-channel and the round-robbin show the same results. 
+The spectral efficiency is R = log2(1+SNR), where the SNR is constant.
